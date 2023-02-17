@@ -19,26 +19,26 @@
 2. Структура страницы:
 * ***Header***
 
-![Скриншот](header.png)
+![Header](header.png)
 
 * ***Content***
 
-![Скриншот](content.png)
+![Content](content.png)
 
 * ***Footer***
 
-![Скриншот](footer.png)
+![Footer](footer.png)
 
 3. Изменения:
 
 ***Было***
 
-![Скриншот](before.png)
+![Картинка before](before.png)
 
 ***Стало***
 
-![Скриншот](after.png)
+![Картинка after](after.png)
 
 4. Прототип низкой детализации
 
-![Скриншот](Prototip.png)
+![Прототип](Prototip.png)
