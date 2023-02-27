@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap">
+    <script defer src="app.js"></script>           
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>Все про здоровье</h1>
+        </header>
+        <nav>
+            <ul class="menu">
+                <li><a href="https://www.instagram.com/f.f.bouquet/" target="_blank">Instagram</a></li>
+                <li><a href="chat.html" target="_blank">Chat</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h2>Калькулятор индекса массы тела (ИМТ)</h2>
+            <input id="height" type="text" placeholder="What is your height?" value="">
+            <input id="weight" type="text" placeholder="What is your weight?" value="">
+            <button onclick="go()">Calculate</button><br>
+            <span id="IMT"></span><br>
+            <span id="textIMT"></span>
+            <p>
+               <img src="./img/RedBerries.jpg" alt="Red Berries Bouquet" width="160" class="leftimg"><br>
+               Red Berries Bouquet<br>
+               This bouquet is very bright, juicy, unusual.<br>
+               WOW-effect guaranteed!<br>
+               For order your unique bouquet <a href="https://wa.me/+79227385858">WhatsApp</a>to us.<br>
+               Delivery by Grab<br>
+               Pick up from Bukit Bintang area
+            </p>    
+            
+        </main>
+        <br>
+        <footer><h3>(c)2019<br>Россия</h3></footer>
+    </div>
+</body>
+</html>
